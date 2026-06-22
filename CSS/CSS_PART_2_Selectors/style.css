@@ -1,0 +1,84 @@
+
+/*universal selector*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+/*element selector*/
+h1,h3{
+    color: #b92b27;
+}
+
+/*id selector*/
+
+#login{
+    color: red;
+}
+#signup{
+    color: red;
+}
+/*class selector*/
+.upvote{
+    background-color: aquamarine;
+    color: black;
+}
+/*decendent selector*/
+/* p a{
+    color: violet;
+} */
+/*just practicing and having fun with the old concepts.*/
+.end a{
+    text-decoration: none;
+}
+
+/*using class selector with the decendent selector*/
+.post a{
+    color: violet;
+}
+/*attribute selector*/
+input[type="text"]{
+    color: #b92b27;
+}
+input[type="password"]{
+    color:  green;
+}
+/*Adjacent sibling combinator*/
+p+h3{
+    text-decoration: none;
+}
+.upvote+button{
+    background-color: cornflowerblue;
+}
+/* child combinator */
+div>input{
+    background-color: blanchedalmond;
+}
+
+
+/*Pseudo class*/
+/*hover pseudo class*/
+span button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+h3:hover{
+    text-decoration:underline;
+}
+/*more classes for pseudo class are as follows*/
+/* active pseudo class*/
+button:active{
+    background-color: #b92b27;
+}
+/*checked pseudo class*/
+input[type="checkbox"]:checked + label{
+    color: green;
+    font-weight: bold;
+}
+/*nth-of-type*/
+/* .post:nth-of-type(n){
+    background-color: aquamarine;
+} */
+
+div:nth-of-type(2n){
+    background-color: aquamarine;
+}

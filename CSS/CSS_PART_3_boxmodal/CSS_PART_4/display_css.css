@@ -1,0 +1,9 @@
+h2{
+    display: inline;
+}
+span{
+    display: block;
+}
+/*even tho h2 is a block element and 
+span in an inline element by default
+still its behavior changed*/
