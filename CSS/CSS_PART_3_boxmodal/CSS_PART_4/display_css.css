@@ -1,9 +1,8 @@
-h2{
-    display: inline;
+div{
+    background-color: aquamarine;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
 }
-span{
-    display: block;
-}
-/*even tho h2 is a block element and 
-span in an inline element by default
-still its behavior changed*/
