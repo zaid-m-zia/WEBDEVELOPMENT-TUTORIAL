@@ -1,0 +1,18 @@
+h1{
+    border: 2px solid black;
+    /*as body element was the parent element*/
+    width: 50%;
+
+}
+
+#outer{
+    height:400px;
+    width: 400px;
+    background-color: aqua;
+}
+#inner{
+    height:10%;
+    width: 10%;
+    margin-left: 10%;
+    background-color: #8a2be2;
+}

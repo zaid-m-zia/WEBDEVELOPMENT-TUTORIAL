@@ -1,0 +1,12 @@
+div{
+    height: 300px;
+    width: 200px;
+    border: 2px dotted black;
+    background-color: green;
+    transition:2s;
+}
+
+div:hover{
+    background-color: red;
+    border-radius: 50%;
+}
